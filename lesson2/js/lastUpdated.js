@@ -1,6 +1,6 @@
 const date = new Date();
 
-let month = date.getUTCMonth();
+let month = date.getUTCMonth() + 1;
 let day = date.getDate();
 let year = date.getUTCFullYear();
 let hour = date.getHours();

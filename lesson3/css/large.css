@@ -1,0 +1,16 @@
+@media only screen and (min-width: 60em) {
+   
+    nav ul {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-gap: 20px;
+        text-align: center;
+    }
+
+    nav li {
+        display: inline-block;
+        font-size: 20px;
+        padding: 20px;
+        justify-content: center;
+    }
+}

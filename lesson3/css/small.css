@@ -1,0 +1,138 @@
+body {
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header, main, footer {
+    margin: 0 auto;
+}
+
+header, footer {
+    color: black;
+    background-color: white;
+    border: 1px solid grey;
+}
+
+header {
+    padding: 1rem;
+    /*align-items: center;*/
+    text-align: center;
+}
+
+header h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    text-shadow: 2px 2px #55bdca;
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    text-shadow: 2px 2px #55bdca;
+}
+
+h3 {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+nav {
+    display: grid;
+    grid-template-rows: 1fr;
+    padding: 10px;
+}
+
+nav ul {
+    display: block;
+    list-style-type: none;
+    background-color: #f27d42;
+    text-align: center;
+    padding: 1rem;
+    font-size: 1rem;
+}
+
+nav li {
+    padding: 2rem;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 1.5rem;
+}
+
+/*nav a:link {
+    color: #C8EFF9;
+}*/
+
+nav a:hover {
+    color: #C8EFF9;
+    background-color: #022449;
+}
+
+nav a:visited {
+    color: white;
+}
+
+.paletteLink a {
+    color: #55BDCA;
+    text-shadow: white;
+}
+
+
+img {
+    padding: 5px;
+}
+
+main {
+    display: grid;
+    padding: 1rem;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+}
+
+.colors {
+    text-align: center;
+}
+
+.primary {
+    background-color: #022449;
+    color: white;
+}
+
+.secondary {
+    background-color: #f27d42;
+    color: black;
+}
+
+.accent1 {
+    background-color: #55BDCA;
+    color: black;
+}
+
+.accent2 {
+    background-color: #C8EFF9;
+    color: black;
+}
+
+.colors td {
+    height: 3em;
+}
+
+.colored-p {
+    color: white;
+    background-color: #55BDCA;
+    margin: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #022449;
+    color: white;
+}
+
+footer p {
+    margin-top: 5px;
+    color: #f27d42;
+    text-shadow: .5px .5px white;
+}
