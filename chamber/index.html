@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chamber Home Page</title>
+    <meta name="description" content="Chamber website for Madison Lamb in WDD 230: Web Frontend Development at Brigham Young University - Idaho">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+
+</head>
+<body>
+    <header>
+        <!--header must conatin a logo, site name, and navigation-->
+        <div class="logo">
+            <img src="images/rocky-mountain-logo.png" alt="Logo">
+            </div>
+
+            <section class="name">
+                <h1>Rocky Mountain</h1>
+                <p>Chamber of Commerce</p>
+            </section>
+        </div>
+
+        <!--The navigation contains 4 pages links and social media external links.-->
+        <nav>
+    <button id="hamburgerBtn">&#9776;</button>
+            <ul id="primaryNav">
+                <li><a href="discover.html">Discover</a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li><a href="join.html">Join</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="social">
+            <a href="https://www.instagram.com/"><img src="images/instagram.png" alt="instagram"></a>
+            <a href="https://twitter.com/?lang=en"><img src="images/twitter.png" alt="twitter"></a>
+        </div>
+
+         <!--Also displays the current date using JavaScript in this format: Wednesday, 24 July 2020-->
+        <div class="currentdate"></div>
+
+    </header>
+    <main>
+        <!--The main section will not be built at this stage of the project but placeholder blocks and general layout should be started. The sections include hero image and call to action, news, events(s), weather, join, and two to three company spotlights.-->
+        
+        
+        <div class="placeholder hero">Hero with site name and call to action</div>
+        <article class="placeholder news">News Release</article>
+        <div class="placeholder event">Event</div>
+        <div class="placeholder weather">Weather</div>
+        <div class="placeholder join">Join</div>
+
+
+        <div class="placeholder spotlight">
+            <div class="placeholder spot">Spotlight 1</div>
+            <div class="placeholder spot">Spotlight 2</div>
+            <div class="placeholder spot">Spotlight 3</div>
+        </div>
+    </main>
+
+    <footer>
+        <!--The footer contains the logo, contact info, a link to a map, and a base footer with a dynamic copyright year, site name, your name "WDD 230 Project", and the last modification date driven by JavaScript.-->
+        <!--<section class="topfooter">-->
+        <section class="topfooter">
+            <section class="area">
+                <div>
+                    <img src="images/rocky-mountain-logo.png" alt="Logo">
+                </div>
+
+            
+                <h3>Rocky Mountain Chamber of Commerce</h3>
+                <p>1000 US Hwy 36</p>
+                <p>Rocky Mountain, Colorado 80517</p>
+            </section>
+
+            <section class="contactinfo">
+                    <p>info@rockymountaincc.org</p>
+                    <p>(970) 123-4567</p>
+                    <div class="location">
+                        <a href="https://www.google.com/maps/d/viewer?hl=en&mid=1ysb9eXtplMbbeP_sJZJc9yDvBR0&ll=40.32295791637953%2C-105.67525900000001&z=9"><img src="images/pin.png" alt="Location Image"></a>
+                        <a href="https://www.google.com/maps/d/viewer?hl=en&mid=1ysb9eXtplMbbeP_sJZJc9yDvBR0&ll=40.32295791637953%2C-105.67525900000001&z=9">Location Map</a>
+                    </div>
+            </section>
+        </section>
+
+        <section class="bottomfooter">
+            <p>&copy; <span id="year"></span> Mountain Chamber</p>
+             <p>Madison Lamb</p>
+             <p>WDD 230 Project</p>
+             <p>Last Modification: <span id="lastUpdated"></span></p>
+        </section>
+
+    </footer>
+    <script src="js/lastUpdated.js"></script>
+    <script src="js/currentdate.js"></script>
+    <script src="js/hamburgerMenu.js"></script>
+    
+</body>
+</html>

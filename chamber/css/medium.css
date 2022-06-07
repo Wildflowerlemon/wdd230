@@ -1,0 +1,72 @@
+@media only screen and (min-width: 32.5em) {
+
+    .placeholder {
+        padding: 30px;
+    }
+
+    main {
+        display: grid;
+        grid-template-columns: 70% 30%;
+        /*grid-template-rows: 1fr 1fr 1fr 1fr;*/
+        
+    }
+
+    .hero {
+        grid-column: 1/ span 2;
+        grid-row: 1;
+    }
+
+    .news {
+        grid-column: 1/ span 2;
+        grid-row: 2;
+    }
+
+    .spotlight {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-column: 1/ span 2;
+        grid-row: 3;
+    }
+
+    .spot {
+        padding: 1rem;
+        margin: 1rem;
+    }
+
+    .join {
+        grid-column: 1/ span 2;
+
+    }
+    
+    .event {
+        grid-column: 1;
+        grid-row: 5;
+    }
+
+    .weather {
+        grid-column: 2;
+        grid-row: 5;
+    }
+
+    .topfooter {
+        /*display: flex;
+        justify-content: space-between;*/
+        display: grid;
+        grid-template-columns: 30% auto 30%;
+        grid-template-rows: 1fr;
+        align-items: center;
+    }
+
+    .bottomfooter p {
+        display: inline-block;
+    }
+
+    .area {
+        grid-column: 1/ span 2;
+        grid-row: 1;
+        text-align: left;
+    }
+    .contactinfo {
+        grid-column: 3;
+    }
+}

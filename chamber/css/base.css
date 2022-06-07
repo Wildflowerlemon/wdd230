@@ -1,0 +1,176 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+}
+
+header {
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+header img {
+   width: 15vw;
+   height: auto;
+   padding: 1rem;
+}
+
+
+h1, h2 {
+    font-family: "Roboto", sans-serif;
+    text-shadow: 2px 2px #55bdca;
+}
+
+.name {
+    padding: 2rem;
+    line-height: .5rem;
+}
+
+
+
+/*      Start of nav      */
+
+nav button {
+    margin: .2rem 2vw;
+    background: transparent;
+    border: none;
+    font-size: 2rem;
+    color: black;
+}
+
+nav {
+    padding: 0;
+    background-color: #f27d42;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li a {
+    display: block;
+    padding: .8rem 2vw;
+    text-decoration: none;
+    color: white;
+    border-top: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+nav ul li.active a {
+    background-color: rgba(0, 0, 0, 0.2);
+    color: white;
+}
+
+nav ul li a:hover {
+    background-color: #022449;
+}
+
+nav ul {display: none;}
+nav ul.open {display: block;}
+
+/*      End of nav      */
+
+
+.currentdate {
+    border: solid;
+    /*height: 3rem;*/
+    width: 95%;
+    text-align: center;
+    padding: .5rem;
+}
+
+
+.social {
+    padding: 2rem;
+}
+
+.social img{
+    width: 1.5rem;
+    height: auto;
+    padding: .5rem;
+}
+
+main {
+    display: grid;
+    padding: 1rem;
+    grid-template-columns: 1fr;
+    grid-auto-rows: 300px;
+    
+}
+
+.spotlight {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-row: 5/6;
+}
+
+.event {
+    grid-row: 2/3;
+}
+
+.weather {
+    grid-row: 3/4;
+}
+
+.placeholder {
+    border: solid;
+    margin: .5rem;
+    padding: 1rem;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+
+footer {
+    background-color: #022449;
+    color: white;
+    align-items: center;
+    border: solid;
+    display: block;
+    flex-direction: column;
+    padding: 1rem;
+    text-align: center;
+}
+
+footer img {
+    width: 15vw;
+    height: auto;
+    padding: 1rem;
+}
+
+
+.location img {
+    width: 1rem;
+    height: auto;
+    padding: 0;
+}
+
+
+.location a {
+    text-decoration: none;
+    color: white;
+}
+
+.topfooter {
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.area {
+    padding: 1rem;
+}
+.contactinfo {
+    padding: 1rem;
+}
+
+.bottomfooter {
+    margin: 1rem;
+    padding: 1rem;
+    border-top: solid;
+    
+}
