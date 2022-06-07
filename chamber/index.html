@@ -20,13 +20,12 @@
         <!--header must conatin a logo, site name, and navigation-->
         <div class="logo">
             <img src="images/rocky-mountain-logo.png" alt="Logo">
-            </div>
-
-            <section class="name">
-                <h1>Rocky Mountain</h1>
-                <p>Chamber of Commerce</p>
-            </section>
         </div>
+
+        <section class="name">
+            <h1>Rocky Mountain</h1>
+            <p>Chamber of Commerce</p>
+        </section>
 
         <!--The navigation contains 4 pages links and social media external links.-->
         <nav>
@@ -52,7 +51,7 @@
         
         
         <div class="placeholder hero">Hero with site name and call to action</div>
-        <article class="placeholder news">News Release</article>
+        <div class="placeholder news">News Release</div>
         <div class="placeholder event">Event</div>
         <div class="placeholder weather">Weather</div>
         <div class="placeholder join">Join</div>
@@ -68,7 +67,7 @@
     <footer>
         <!--The footer contains the logo, contact info, a link to a map, and a base footer with a dynamic copyright year, site name, your name "WDD 230 Project", and the last modification date driven by JavaScript.-->
         <!--<section class="topfooter">-->
-        <section class="topfooter">
+        <div class="topfooter">
             <section class="area">
                 <div>
                     <img src="images/rocky-mountain-logo.png" alt="Logo">
@@ -80,22 +79,22 @@
                 <p>Rocky Mountain, Colorado 80517</p>
             </section>
 
-            <section class="contactinfo">
+            <div class="contactinfo">
                     <p>info@rockymountaincc.org</p>
                     <p>(970) 123-4567</p>
                     <div class="location">
                         <a href="https://www.google.com/maps/d/viewer?hl=en&mid=1ysb9eXtplMbbeP_sJZJc9yDvBR0&ll=40.32295791637953%2C-105.67525900000001&z=9"><img src="images/pin.png" alt="Location Image"></a>
                         <a href="https://www.google.com/maps/d/viewer?hl=en&mid=1ysb9eXtplMbbeP_sJZJc9yDvBR0&ll=40.32295791637953%2C-105.67525900000001&z=9">Location Map</a>
                     </div>
-            </section>
-        </section>
+                </div>
+            </div>
 
-        <section class="bottomfooter">
+        <div class="bottomfooter">
             <p>&copy; <span id="year"></span> Mountain Chamber</p>
              <p>Madison Lamb</p>
              <p>WDD 230 Project</p>
              <p>Last Modification: <span id="lastUpdated"></span></p>
-        </section>
+        </div>
 
     </footer>
     <script src="js/lastUpdated.js"></script>
