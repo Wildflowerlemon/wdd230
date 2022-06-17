@@ -1,0 +1,50 @@
+
+
+header, footer {
+    text-align: center;
+    padding: 1rem;
+    color: white;
+    background-color: rgb(67, 22, 3);
+}
+
+header {
+    border-bottom: 5px double goldenrod;
+}
+
+footer {
+    border-top: 5px double goldenrod;
+}
+
+h2 {
+    color: white;
+    margin: .5rem;
+}
+
+p {
+    margin: 0;
+    text-shadow: white;
+}
+
+section {
+    margin: 0.25rem;
+    padding: 0.35rem;
+    background-color: rgb(141, 101, 50);
+    border: 5px inset gold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+img {
+    width: auto;
+    max-width: 325px;
+    box-shadow: 0 0 30px gold;
+    height: 200px;
+    border: 1px solid #333;
+    margin: 1rem;
+}
