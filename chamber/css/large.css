@@ -33,12 +33,7 @@
     main {
         display: grid;
         grid-template-columns: 1fr 3fr 1fr;
-        /*grid-auto-rows: 200px;*/
     }
-
-    /*.placeholder {
-        padding: 30px;
-    }*/
 
     .event {
         grid-column: 1;
@@ -48,13 +43,13 @@
     .hero {
         grid-column: 2;
         grid-row: 1/ span 2;
+        background-size: cover;
+        height: auto;
     }
 
     .spotlight {
         grid-column: 3;
         grid-row: 1/ span 3;
-        display: flex;
-        flex-wrap: wrap
     }
     
     .spot {
