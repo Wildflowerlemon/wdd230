@@ -1,0 +1,43 @@
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    background-color: rgb(252, 252, 128);
+    border: 10px ridge orange;
+    padding: 2rem;
+    margin: 3rem;
+}
+
+h2 {
+    background-color: orange;
+    border: 5px solid rgb(244, 244, 70);
+    border-radius: 5px;
+    padding: 1rem;
+    margin: 2rem;
+}
+
+#current-temp {
+    font-size: 1.5rem;
+    font-style: italic;
+}
+
+#weather-icon {
+    height: 200px;
+}
+
+figcaption {
+    font-size: 2rem;
+}
+
+figcaption::first-letter {
+    font-size: 3rem;
+    /*font-family:'Times New Roman', Times, serif;*/
+    text-decoration-style: dotted;
+}
+
+footer {
+    border-top: 2px solid black;
+    padding: 1rem;
+}
