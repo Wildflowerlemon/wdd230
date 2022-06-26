@@ -68,11 +68,14 @@
 
         <div class="placeholder weather">
             <h3>Weather</h3>
-            <img src="" alt="Sun/Cloud">
-            <img src="" alt="Degrees">
-            <h4>Partly Cloudy</h4>
-            <label for=>Wind Speed: 2.5 km/h</label>
-            <label for=>Wind Chill: N/A</label>
+            <figure>
+                <img src="" alt="" id="weather-icon" />
+            </figure>
+            <div class="current-temp-deg"><span id="current-temp"></span> &deg;F </div>
+            <figcaption></figcaption>
+            <p>Wind Speed: <span id="wind-speed"></span> km/h</p>
+            <p>Wind Chill: <span id="wind-chill"></span></p>
+            <a id="weather-source" href="https://openweathermap.org/city/5780699">Source: OpenWeatherMap</a>
         </div>
         <div class="placeholder join">
             <button>Join Us!</button>
@@ -148,6 +151,7 @@
     <script src="js/currentdate.js"></script>
     <script src="js/hamburgerMenu.js"></script>
     <script src="js/banner.js"></script>
+    <script src="js/weather.js"></script>
     
 </body>
 </html>

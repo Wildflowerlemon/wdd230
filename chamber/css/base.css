@@ -200,23 +200,38 @@ main {
     display: grid;
     grid-template-columns: 1fr 1fr;
     /*grid-template-columns: repeat(auto-fit, minmax(200px, 1fr 1fr));*/
+    width: 250px;
 }
 
 .weather h3 {
     grid-column: 1/ span 2;
 }
 
-.weather h4 {
-    grid-column: 1/ span 2;
-    text-align: end;
-    border-bottom: 1px solid black;
-    color: white;
+#weather-icon {
+    width: 5rem;
 }
-.weather label {
-    grid-column: 1/ span 2;
-    color: white;
-    text-align: left;
+
+.current-temp-deg {
+    font-size: 2rem;
+    vertical-align: middle;
+    padding-top: 2rem;
 }
+
+figcaption {
+    text-transform: capitalize;
+    border-bottom: 2px solid black;
+    grid-column: 1/ span 2;
+}
+
+.weather p {
+    grid-column: 1/ span 2;
+}
+
+#weather-source {
+    grid-column: 1/ span 2;
+    text-align: center;
+}
+
 
 /*--------- Placeholder ----------*/
 .placeholder {
