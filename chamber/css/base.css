@@ -118,7 +118,7 @@ nav ul.open {
 }
 
 /*--------- Main ----------*/
-main {
+.homemain, .formmain {
     display: grid;
     padding: 1rem;
     grid-template-columns: 1fr; 
@@ -156,11 +156,11 @@ main {
     right: 3rem;
 }
 
-.hero button:hover, .join button:hover, #thanks button:hover, input.submitBtn:hover{
+.hero button:hover, .join button:hover, #thanks button:hover, input.submitBtn:hover, .menu button:hover{
     background-color: #d56d3a;
 }
 
-.hero button, .join button, #thanks button, input.submitBtn {
+.hero button, .join button, #thanks button, input.submitBtn, .menu button {
     background-color: #f27d42;
     border: none;
     color: white;
@@ -397,7 +397,7 @@ form label.top input:required:valid {
     margin: 1rem;
 }
 
-#thanks h1 {
+#thanks h1, .cards h2 {
     background-color: white;
     border-radius: 10px;
     padding: .75rem;
@@ -406,3 +406,71 @@ form label.top input:required:valid {
 #thanks p {
     color: white;
 }
+
+/*--------- Directory Page ----------*/
+
+.menu {
+    margin: 1rem auto;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 0.5rem;
+    background-color: #55bdca;
+    text-align: center;
+    
+}
+
+.menu button {
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.cards section {
+    margin: 0.25rem;
+    padding: 0.35rem;
+    background-color: white;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.cards section:nth-child(even) {
+    background-color: #55bdca;
+}
+
+.cards section:nth-child(even) p {
+    color: white;
+}
+
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    align-items: center;
+}
+
+.grid section {
+    flex-direction: column;
+    text-align: center;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+}
+
+.list section {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: left;
+}
+
+.list p {
+    margin: 2rem;
+}
+
+.cards section img {
+    box-shadow: 10px 10px 10px black;
+}
+

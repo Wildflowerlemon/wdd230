@@ -30,7 +30,7 @@
         border-right: 1px solid rgba(0, 0, 0, 0.3);
     }
 
-    main {
+    .homemain, .formmain {
         display: grid;
         grid-template-columns: 1fr 3fr 1fr;
     }
@@ -80,6 +80,11 @@
 
     }
     #thanks {
+        grid-column: 2;
+    }
+
+
+    .menu {
         grid-column: 2;
     }
 }
