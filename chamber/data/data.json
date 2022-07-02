@@ -1,0 +1,78 @@
+{
+    "companies": [
+        {
+            "name": "Ranger Book", 
+            "address": "200 W 48th Ave, Denver, CO 80216",
+            "phonenumber": "(720) 838-5324",
+            "website": "rangerbook.com",
+            "membership": "Bronze Member",
+            "imageurl": ""
+        },
+        {
+            "name": "Swimming Gecko",
+            "address": "2300 Steele Street, Denver, CO 80205",
+            "phonenumber": "(720) 245-4455",
+            "website": "swimminggecko.com",
+            "membership": "Gold Member",
+            "imageurl": ""
+        },
+        {
+            "name": "Simply Electric", 
+            "address": "1555 California St. Denver, CO 80517",
+            "phonenumber": "(720) 897-5043",
+            "website": "simplyelectric.com",
+            "membership": "Silver Member",
+            "imageurl": ""
+        },
+        {
+            "name": "Thrift Tech", 
+            "address": "1200 W Florida Ave, Denver, CO 80517",
+            "phonenumber": "(720) 934-9065",
+            "website": "thrifttech.com",
+            "membership": "Bronze Member",
+            "imageurl": ""
+        },
+        {
+            "name": "Rocky Museum", 
+            "address": "1007 York St, Denver, CO 80517",
+            "phonenumber": "(720) 333-03030",
+            "website": "rockymuseum.com",
+            "membership": "Gold Member",
+            "imageurl": ""
+        },
+        {
+            "name": "Flashback Theater", 
+            "address": "1701 Wynkoop St, Denver, CO 80202",
+            "phonenumber": "(720) 305-3940",
+            "website": "flashbacktheater.com",
+            "membership": "Silver Member",
+            "imageurl": ""
+        },
+        {
+            "name": "Bedrock Glasses", 
+            "address": "3773 Cherry Creek N Dr #955, Denver,CO 80517",
+            "phonenumber": "(720) 809-3045",
+            "website": "bedrockglasses.com",
+            "membership": "NP Member",
+            "imageurl": ""
+        },
+        {
+            "name": "Wood Working Dome", 
+            "address": "3636 Chestnut PI,Denver,CO 80216",
+            "phonenumber": "720) 985-9485",
+            "website": "woodworkingdome.com",
+            "membership": "Silver Member",
+            "imageurl": ""
+        },
+        {
+            "name": "Mission Karate", 
+            "address": "2485 W 2nd Ave #18, Denver, CO 80223",
+            "phonenumber": "(719) 546-9253",
+            "website": "missionkarate.com",
+            "membership": "NP Member",
+            "imageurl": ""
+        }
+
+    ]
+    
+}
