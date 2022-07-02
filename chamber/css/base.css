@@ -149,17 +149,18 @@ main {
     left: 3rem;
 }
 
+/*------------ Buttons ------------*/
 .hero button {
     position: absolute;
     bottom: 3rem;
     right: 3rem;
 }
 
-.hero button:hover, .join button:hover{
+.hero button:hover, .join button:hover, #thanks button:hover, input.submitBtn:hover{
     background-color: #d56d3a;
 }
 
-.hero button, .join button {
+.hero button, .join button, #thanks button, input.submitBtn {
     background-color: #f27d42;
     border: none;
     color: white;
@@ -209,7 +210,6 @@ main {
     grid-row: 3/4;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    /*grid-template-columns: repeat(auto-fit, minmax(200px, 1fr 1fr));*/
     width: 250px;
     justify-self: center;
 }
@@ -323,4 +323,86 @@ footer img {
     padding: 1rem;
     border-top: solid;
     
+}
+
+/*--------- Join Form ----------*/
+form fieldset {
+    margin: 2rem 0;
+    /*border: 1px solid black;*/
+    border: none;
+    border-radius: 10px;
+    padding: .5rem;
+    background-color: #55bdca;
+}
+
+form legend {
+    margin: 0 1rem;
+    padding: 0 0.5rem;
+    font-family: "Roboto", sans-serif;
+    text-shadow: 2px 2px #55bdca;
+    background-color: white;
+    font-size: 22px;
+    border-radius: 10px;
+}
+
+
+form label.top, form div {
+    display: block;
+    padding-top: 1rem;
+    color: black;
+    font-size: .8rem;
+}
+
+
+form label.top input, form label.top select {
+    /*-webkit-appearance: none;*/
+    display: block;
+    font-size: 1rem;
+    border-radius: 4px;
+    padding: .75rem;
+    color: #555;
+    width: 100%;
+    max-width: 20rem;
+    background-color: white;
+}
+
+form label.sbs {
+    display: block;
+    padding: .75rem 0;
+    color: white;
+}
+
+textarea {
+    padding: .75rem;
+}
+
+form input.submitBtn {
+    margin: 0 0 2rem 2%;
+    width: 96%;
+    max-width: 20rem;
+}
+
+form label.top input:required {
+    border-left: red solid 6px;
+}
+
+form label.top input:required:valid {
+    border-left: green solid 6px;
+}
+
+#thanks {
+    text-align: center;
+    border: 1px solid #022449;
+    background-color: #55bdca;
+    margin: 1rem;
+}
+
+#thanks h1 {
+    background-color: white;
+    border-radius: 10px;
+    padding: .75rem;
+    margin: 2rem;
+}
+#thanks p {
+    color: white;
 }

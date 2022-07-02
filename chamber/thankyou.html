@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Join | Rocky Mountain Chamber</title>
-    <meta name="description" content="Chamber Join Page for Madison Lamb in WDD 230: Web Frontend Development at Brigham Young University - Idaho">
+    <title>Thank You!</title>
+    <meta name="description" content="Chamber Thank You Page for Madison Lamb in WDD 230: Web Frontend Development at Brigham Young University - Idaho">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@300&display=swap" rel="stylesheet">
@@ -43,48 +43,18 @@
             <a href="https://twitter.com/?lang=en"><img src="images/twitter.webp" alt="twitter"></a>
         </div>
 
-         <!--Also displays the current date using JavaScript in this format: Wednesday, 24 July 2020-->
+        <!--Also displays the current date using JavaScript in this format: Wednesday, 24 July 2020-->
         <div class="currentdate"></div>
 
     </header>
     <main>
-        <form method="get" action="thankyou.html">
-            <fieldset>
-                <legend>Applicant Information</legend>
-                <label class="top">First Name* <input type="text" name="fname" required></label>
-                <label class="top">Last Name* <input type="text" name="lname" required></label>
-                <label class="top">Business Position <input type="text" name="position" pattern="[A-Za-z - ]{7,}"></label>
-                <label class="top">Email* <input type="email" name="email" placeholder="someone@gmail.com" required></label>
-                <label class="top">Phone* <input type="tel" name="phone" placeholder="123-456-7890" required></label>
-                <label class="top">Business name/title* <input type="text" name="Business" placeholder="Business" required></label>
-            </fieldset>
-
-            <fieldset>
-                <legend>Membership(Choose One)</legend>
-                <div>Membership</div>
-                <label class="sbs"><input type="radio" name="membership" value="np"> NP Membership </label>
-                <label class="sbs"><input type="radio" name="membership" value="bronze"> Bronze Membership </label>
-                <label class="sbs"><input type="radio" name="membership" value="silver">  Silver Membership </label>
-                <label class="sbs"><input type="radio" name="membership" value="gold"> Gold Membership </label>
-            </fieldset>
-
-
-            <fieldset>
-                <legend>Business Description</legend>
-                <label><textarea name="description" value="description" rows="10" cols="50"></textarea></label>
-            </fieldset>
-            
-            <input type="hidden" id="date" name="date" value="currentdate">
-            <input type="hidden" id="time" name="time" value="currentdate">
-
-            <input type="submit" value="Join Chamber" class="submitBtn">
-            
-
-        </form>
+        <div id="thanks">
+            <h1>Thank You!</h1>
+            <p>We will get back to you shortly!</p>
+            <button type="button" onclick="window.location.href='index.html'">Return Home</button>
+        </div>
     </main>
     <footer>
-        <!--The footer contains the logo, contact info, a link to a map, and a base footer with a dynamic copyright year, site name, your name "WDD 230 Project", and the last modification date driven by JavaScript.-->
-        <!--<section class="topfooter">-->
         <div class="topfooter">
             <section class="area">
                 <div>
@@ -113,12 +83,10 @@
              <p>WDD 230 Project</p>
              <p>Last Modification: <span id="lastUpdated"></span></p>
         </div>
-
     </footer>
     <script src="js/lastUpdated.js"></script>
     <script src="js/currentdate.js"></script>
     <script src="js/hamburgerMenu.js"></script>
     <script src="js/banner.js"></script>
-    <script src="js/weather.js"></script>
 </body>
 </html>

@@ -70,4 +70,16 @@
         grid-column: 2;
         grid-row: 3
     }
+
+    form {
+        grid-column: 2;
+    }
+
+    form.label.sbs {
+        padding: .4rem 0;
+
+    }
+    #thanks {
+        grid-column: 2;
+    }
 }
