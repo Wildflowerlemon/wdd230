@@ -6,7 +6,7 @@
             "phonenumber": "(720) 838-5324",
             "website": "rangerbook.com",
             "membership": "Bronze Member",
-            "imageurl": "images/movietheater.jpg"
+            "imageurl": ""
         },
         {
             "name": "Swimming Gecko",
@@ -46,7 +46,7 @@
             "phonenumber": "(720) 305-3940",
             "website": "flashbacktheater.com",
             "membership": "Silver Member",
-            "imageurl": ""
+            "imageurl": "https://wildflowerlemon.github.io/wdd230/chamber/images/movietheater.jpg"
         },
         {
             "name": "Bedrock Glasses", 
@@ -70,7 +70,7 @@
             "phonenumber": "(719) 546-9253",
             "website": "missionkarate.com",
             "membership": "NP Member",
-            "imageurl": ""
+            "imageurl": "https://wildflowerlemon.github.io/wdd230/chamber/images/karate.jpg"
         }
 
     ]

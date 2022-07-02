@@ -23,6 +23,7 @@ function displayCompanies(company) {
 
 
     h2.textContent = `${company.name}`;
+    picture.innerHTML = `${company.picture}`
     address.innerHTML = `${company.address}`;
     phonenumber.innerHTML = `${company.phonenumber}`;
     website.innerHTML = `${company.website}`;
