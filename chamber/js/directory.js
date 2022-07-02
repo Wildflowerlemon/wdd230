@@ -32,7 +32,7 @@ function displayCompanies(company) {
 
     //Build the image attributes by using the setAttribute method for the src, alt, and loading attribute values. (Fill in the blank with the appropriate variable).
     picture.setAttribute("src", company.imageurl);
-    picture.setAttribute("alt",`Portrait of ${company.name}`);
+    picture.setAttribute("alt",`Picture of ${company.name}`);
     
     picture.setAttribute("loading", "lazy");
 
