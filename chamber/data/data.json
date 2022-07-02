@@ -14,7 +14,7 @@
             "phonenumber": "(720) 245-4455",
             "website": "swimminggecko.com",
             "membership": "Gold Member",
-            "imageurl": ""
+            "imageurl": "https://wildflowerlemon.github.io/wdd230/chamber/images/pool.jpg"
         },
         {
             "name": "Simply Electric", 
@@ -22,7 +22,7 @@
             "phonenumber": "(720) 897-5043",
             "website": "simplyelectric.com",
             "membership": "Silver Member",
-            "imageurl": ""
+            "imageurl": "https://wildflowerlemon.github.io/wdd230/chamber/images/electric.jpg"
         },
         {
             "name": "Thrift Tech", 
@@ -30,7 +30,7 @@
             "phonenumber": "(720) 934-9065",
             "website": "thrifttech.com",
             "membership": "Bronze Member",
-            "imageurl": ""
+            "imageurl": "https://wildflowerlemon.github.io/wdd230/chamber/images/tech.jpg"
         },
         {
             "name": "Rocky Museum", 
@@ -54,7 +54,7 @@
             "phonenumber": "(720) 809-3045",
             "website": "bedrockglasses.com",
             "membership": "NP Member",
-            "imageurl": ""
+            "imageurl": "https://wildflowerlemon.github.io/wdd230/chamber/images/glasses.jpg"
         },
         {
             "name": "Wood Working Dome", 
@@ -62,7 +62,7 @@
             "phonenumber": "720) 985-9485",
             "website": "woodworkingdome.com",
             "membership": "Silver Member",
-            "imageurl": ""
+            "imageurl": "https://wildflowerlemon.github.io/wdd230/chamber/images/karate.jpg"
         },
         {
             "name": "Mission Karate", 
