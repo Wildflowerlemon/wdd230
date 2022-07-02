@@ -13,7 +13,7 @@
             "address": "2300 Steele Street, Denver, CO 80205",
             "phonenumber": "(720) 245-4455",
             "website": "swimminggecko.com",
-            "membership": "Gold Member",
+            "membership": "Silver Member",
             "imageurl": "https://wildflowerlemon.github.io/wdd230/chamber/images/pool.jpg"
         },
         {
@@ -45,7 +45,7 @@
             "address": "1701 Wynkoop St, Denver, CO 80202",
             "phonenumber": "(720) 305-3940",
             "website": "flashbacktheater.com",
-            "membership": "Silver Member",
+            "membership": "Gold Member",
             "imageurl": "https://wildflowerlemon.github.io/wdd230/chamber/images/movietheater.jpg"
         },
         {
