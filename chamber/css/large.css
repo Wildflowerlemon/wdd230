@@ -87,4 +87,8 @@
     .menu {
         grid-column: 2;
     }
+
+    .list section {
+        flex-wrap: nowrap;
+    }
 }

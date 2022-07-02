@@ -423,6 +423,10 @@ form label.top input:required:valid {
     margin: 1rem;
 }
 
+.card {
+    margin: 1rem;
+}
+
 .cards section {
     margin: 0.25rem;
     padding: 0.35rem;
@@ -445,7 +449,7 @@ form label.top input:required:valid {
 
 .grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(310px, 1fr));
     align-items: center;
 }
 
@@ -464,13 +468,19 @@ form label.top input:required:valid {
     align-items: center;
     flex-direction: row;
     justify-content: left;
+    flex-wrap: wrap;
 }
 
 .list p {
-    margin: 2rem;
+    margin: 1.5rem;
+    flex-direction: column;
 }
 
 .cards section img {
     box-shadow: 10px 10px 10px black;
 }
 
+.directorymain {
+    grid-template-columns: 1fr;
+    margin: 1rem;
+}
