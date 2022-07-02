@@ -40,6 +40,7 @@ function displayCompanies(company) {
     card.appendChild(picture);
     card.appendChild(address);
     card.appendChild(phonenumber);
+    card.appendChild(website);
     card.appendChild(membership);
 
     // Add/apend the existing HTML div with the cards class with the section(card)
