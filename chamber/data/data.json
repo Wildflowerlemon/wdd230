@@ -38,7 +38,7 @@
             "phonenumber": "(720) 333-03030",
             "website": "rockymuseum.com",
             "membership": "Gold Member",
-            "imageurl": ""
+            "imageurl": "https://wildflowerlemon.github.io/wdd230/chamber/images/mineral.jpg"
         },
         {
             "name": "Flashback Theater", 
@@ -62,7 +62,7 @@
             "phonenumber": "720) 985-9485",
             "website": "woodworkingdome.com",
             "membership": "Silver Member",
-            "imageurl": "https://wildflowerlemon.github.io/wdd230/chamber/images/karate.jpg"
+            "imageurl": "https://wildflowerlemon.github.io/wdd230/chamber/images/wood.jpg"
         },
         {
             "name": "Mission Karate", 
