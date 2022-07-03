@@ -12,9 +12,8 @@ fetch(requestURL)
     });
 
 
-
 function displayCompanies(company) {
-    //const goldsilcompanies = company.filter( membership => membership.membership == "Gold Member" || "Silver Member");
+    //let goldsilcompanies = company.filter( membership => membership.membership == "Gold Member" || "Silver Member");
     //goldsilcompanies.forEach(company => {
 
         //Create elements to add to the document
