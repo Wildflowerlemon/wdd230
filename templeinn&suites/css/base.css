@@ -1,0 +1,242 @@
+body {
+    padding: auto;
+    margin: auto;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    font-family: 'Cormorant SC', serif;
+    color: white;
+}
+
+.container {
+    /*min-height: 160px;*/
+    /*margin: auto;*/
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 0;
+    
+}
+
+header {
+    background-color: white;
+}
+
+.logo {
+    background-color: #60B7CA;
+    display: flex;
+    align-items: center;
+    padding: .5rem;
+}
+a {
+    text-decoration: none;
+}
+
+/*----------navigation----------*/
+nav button {
+    margin: .2rem 5vw;
+    background: transparent;
+    background-color: #A7e8ee;
+    border: none;
+    border-radius: 25%;
+    font-size: 2rem;
+    color: black;
+    position: absolute;
+    top: 2.5rem;
+    right: 1rem;
+    display: flex;
+}
+
+/*nav button.open {
+    top: 1rem;
+    right: 0;
+}*/
+
+
+nav {
+    background-color: white;
+}
+
+nav ul {
+    list-style: none;
+    padding: 1rem;
+    margin: 1rem;
+    display: none;
+    background-color: #bec537;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+
+nav ul.open {
+    display: block;
+}
+
+#hamburgerBtn span:nth-child(1) {display: block;}
+#hamburgerBtn span:nth-child(2) {display: none;}
+
+#hamburgerBtn.open span:nth-child(1) {display: none;}
+#hamburgerBtn.open span:nth-child(2) {display: block;}
+
+
+
+nav a {
+    display: block;
+    text-decoration: none;
+    padding: .5rem 3vw;
+    margin: 2rem;
+    color: white;
+    font-weight: 700;
+    line-height: 1rem;
+    
+}
+
+#active {
+    background-color: #5c6b1a;
+    color: white;
+    border: none;
+}
+
+nav a:hover {
+    border-bottom: 2px solid #5c6b1a;
+    color: #5c6b1a;
+}
+
+#topsocial {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#topsocial img:hover {
+    background-color: #A7e8ee;
+}
+
+.hometopimg {
+    background-image: url(../images/small_original.jpg);
+    background-position: center;
+    height: 300px;
+}
+
+.homereserve {
+    height: 200px;
+    text-align: center;
+    margin: 2rem;
+}
+
+#reserveBtn {
+    padding: 1.5rem;
+    background-color: #bec537;
+    color: white;
+    border: none;
+    font-size: 1.5rem;
+    font-weight: 700;
+    border-radius: 1rem;
+}
+
+#reserveBtn:hover {
+    background-color: #5c6b1a;
+}
+
+.vernal p {
+    padding: 1rem;
+    margin: 0;
+}
+
+.vernal p:nth-child(6) {
+    border-bottom: 1px solid black;
+}
+
+.weather {
+    height: 250px;
+}
+
+
+
+
+/*-------------Footer-------------*/
+
+
+
+/*-------------Top Footer-------------*/
+
+.topfooter {
+    background-color: #60B7CA;
+    color: white;
+    
+}
+
+.location, .info, .follow, .resources {
+    padding: 1rem;
+}
+
+.location a {
+    background-color: #bec537;
+    color: white;
+    width: 150px;
+    height: 45px;
+    display: flex;
+    border-radius: 1rem;
+    align-items: center;
+}
+
+.location a:hover{
+    color: #5c6b1a;
+}
+
+.location img {
+    background-color: white;
+    border-radius: 100%;
+    margin: .5rem;
+}
+
+.resources ul{
+    list-style: none;
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+.resources a {
+    color: white;
+    text-decoration: underline;
+}
+.resources li {
+    padding: 0 .5rem .5rem;
+    
+}
+.resources  h3{
+    margin: 0;
+    padding: 1rem 0;
+}
+
+
+/*--------- Top Footer Social Media ----------*/
+
+.icon img {
+    width: 2rem;
+}
+
+.follow img {
+    padding: .5rem;
+    /*background-color: white;*/
+    border-radius: 25%;
+    
+}
+
+.follow img:hover {
+    background-color: #A7e8ee;
+    border-radius: 25%;
+}
+
+/*--------- Bottom footer ----------*/
+.bottomfooter {
+    background-color: #A7e8ee;
+}
+
+.bottomfooter p {
+    margin: auto;
+    padding: 1rem;
+    text-align: center;
+    color: black;
+}

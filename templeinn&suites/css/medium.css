@@ -1,0 +1,40 @@
+@media only screen and (min-width: 32.5em) {
+
+    /*footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+    }*/
+
+    .hometopimg {
+        background-image: url(../images/medium_original.jpg);
+    }
+
+    .vernal img {
+        float: left;
+        margin: 2rem;
+    }
+
+    .topfooter {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .resources {
+        grid-column: 2;
+        grid-row: 2;
+    }
+
+    .location {
+        grid-column: 1;
+    }
+
+    .info {
+        grid-column: 2;
+        grid-row: 1/2;
+    }
+
+    .follow {
+        grid-column: 2;
+    }
+}
