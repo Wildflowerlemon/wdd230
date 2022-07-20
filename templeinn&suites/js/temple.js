@@ -11,6 +11,8 @@ fetch(requestURL)
         temples.forEach(displayTemples);
     });
 
+
+
 function displayTemples(temple) {
     let card = document.createElement("section");
     let name = document.createElement("h2");
@@ -18,21 +20,38 @@ function displayTemples(temple) {
     let address = document.createElement("p");
     let telephone = document.createElement("p");
     let email = document.createElement("p");
-    let services = document.createElement("p");
-    let history = document.createElement("p");
-    let historyul = document.createElement("ul");
+
+    const servicesh3 = document.createElement("h3");
+    servicesh3.textContent = `Services:`;
+
+    let servicesList = document.createElement("ul");
+    const templeservices = temple.services;
+    for (const service of templeservices) {
+        const listservice = document.createElement("li");
+        listservice.textContent = service;
+        servicesList.appendChild(listservice);
+    }
+
+    const historyh3 = document.createElement("h3");
+    historyh3.textContent = `History:`; 
+    let historyList = document.createElement("ul");
+    const templehistory = temple.history;
+    for (const history of templehistory) {
+        const listItem = document.createElement("li");
+        listItem.textContent = history;
+        historyList.appendChild(listItem);
+    }
+
     let ordinanceschedule = document.createElement("p");
     let sessionschedule = document.createElement("p");
     let templeclosureschedule = document.createElement("p");
 
     name.textContent = `${temple.name}`;
     picture.innerHTML = `${temple.picture}`;
-    address.innerHTML = `${temple.address}`;
-    telephone.innerHTML = `${temple.telephone}`;
-    email.innerHTML = `${temple.email}`;
-    services.innerHTML = `${temple.services}`;
-    history.innerHTML = `${temple.history}`;
-    historyul.innerHTML = `${temple.history}`;
+
+    address.innerHTML = `Temple Address: ${temple.address}`;
+    telephone.innerHTML = `Telephone: ${temple.telephone}`;
+    email.innerHTML = `Email: ${temple.email}`;
     ordinanceschedule.innerHTML = `${temple.ordinanceschedule}`;
     sessionschedule.innerHTML =`${temple.sessionschedule}`;
     templeclosureschedule.innerHTML = `${temple.templeclosureschedule}`;
@@ -46,9 +65,10 @@ function displayTemples(temple) {
     card.appendChild(address);
     card.appendChild(telephone);
     card.appendChild(email);
-    card.appendChild(services);
-    card.appendChild(history);
-    card.appendChild(historyul);
+    card.appendChild(servicesh3);
+    card.appendChild(servicesList);
+    card.appendChild(historyh3);
+    card.appendChild(historyList);
     card.appendChild(ordinanceschedule);
     card.appendChild(sessionschedule);
     card.appendChild(templeclosureschedule);

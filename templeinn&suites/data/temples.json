@@ -5,7 +5,10 @@
             "address": "420 W 200 S Vernal UT 84078-2536 United States",
             "telephone": "(1) 435-789-3220",
             "email": "",
-            "services": "Clothing rental available",
+            "services": ["Clothing rental available",
+                        "No cafeteria available",
+                        "No patron housing available",
+                        "Distribution center nearby"],
             "history": [
                     "13 February 1994 - Announced",
                     "13 May 1995 - Groundbreaking",
