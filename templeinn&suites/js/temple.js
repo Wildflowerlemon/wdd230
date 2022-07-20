@@ -20,6 +20,7 @@ function displayTemples(temple) {
     let email = document.createElement("p");
     let services = document.createElement("p");
     let history = document.createElement("p");
+    let historyul = document.createElement("ul");
     let ordinanceschedule = document.createElement("p");
     let sessionschedule = document.createElement("p");
     let templeclosureschedule = document.createElement("p");
@@ -31,21 +32,23 @@ function displayTemples(temple) {
     email.innerHTML = `${temple.email}`;
     services.innerHTML = `${temple.services}`;
     history.innerHTML = `${temple.history}`;
-    ordinanceschedule.innerHTML = `${temple.ordinance-schedule}`
-    sessionschedule.innerHTML =`${temple.session-schedule}`;
-    templeclosureschedule = `${temple.temple-closure-schedule}`;
+    historyul.innerHTML = `${temple.history}`;
+    ordinanceschedule.innerHTML = `${temple.ordinanceschedule}`;
+    sessionschedule.innerHTML =`${temple.sessionschedule}`;
+    templeclosureschedule.innerHTML = `${temple.templeclosureschedule}`;
 
-    picture.setAttribute("src, temple.imageurl");
+    picture.setAttribute("src", temple.imageurl);
     picture.setAttribute("alt", `Picture of the ${temple.name}`);
     picture.setAttribute("loading", "lazy");
 
-    card.appendChild(name);
     card.appendChild(picture);
+    card.appendChild(name);
     card.appendChild(address);
     card.appendChild(telephone);
     card.appendChild(email);
-    card.appendChild(servuces);
+    card.appendChild(services);
     card.appendChild(history);
+    card.appendChild(historyul);
     card.appendChild(ordinanceschedule);
     card.appendChild(sessionschedule);
     card.appendChild(templeclosureschedule);
