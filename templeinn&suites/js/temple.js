@@ -44,7 +44,14 @@ function displayTemples(temple) {
 
     let ordinanceschedule = document.createElement("p");
     let sessionschedule = document.createElement("p");
-    let templeclosureschedule = document.createElement("p");
+
+    let closureScheduleList = document.createElement("ul");
+    const templeclosureschedule = temple.closureScheduleList;
+    for (const schedule of templeclosureschedule) {
+        const listTime = document.createElement("li");
+        listTime.textContent = schedule;
+        closureScheduleList.appendChild(listTime);
+    }
 
     name.textContent = `${temple.name}`;
     picture.innerHTML = `${temple.picture}`;
@@ -54,7 +61,7 @@ function displayTemples(temple) {
     email.innerHTML = `Email: ${temple.email}`;
     ordinanceschedule.innerHTML = `${temple.ordinanceschedule}`;
     sessionschedule.innerHTML =`${temple.sessionschedule}`;
-    templeclosureschedule.innerHTML = `${temple.templeclosureschedule}`;
+    
 
     picture.setAttribute("src", temple.imageurl);
     picture.setAttribute("alt", `Picture of the ${temple.name}`);
@@ -71,7 +78,7 @@ function displayTemples(temple) {
     card.appendChild(historyList);
     card.appendChild(ordinanceschedule);
     card.appendChild(sessionschedule);
-    card.appendChild(templeclosureschedule);
+    card.appendChild(closureScheduleList);
 
     document.querySelector("div.cards").appendChild(card);
 
