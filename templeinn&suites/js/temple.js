@@ -91,6 +91,7 @@ function displayTemples(temple) {
     card.appendChild(address);
     card.appendChild(telephoneh3);
     card.appendChild(telephone);
+    card.appendChild(emailh3);
     card.appendChild(email);
     card.appendChild(servicesh3);
     card.appendChild(servicesList);
