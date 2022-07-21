@@ -15,7 +15,7 @@
                     "2 November 1997 - Dedicated"],
             "ordinance-schedule": "",
             "session-schedule": "",
-            "temple-closure-schedule": "Monday, 19 September 2022 - Monday, 3 October 2002",
+            "templeClosureSchedule": "Monday, 19 September 2022 - Monday, 3 October 2002",
             "imageurl": "https://wildflowerlemon.github.io/wdd230/templeinn&suites/images/small-vernal-temple-lds.jpg"
         },
         {
@@ -33,7 +33,7 @@
                         "13 March 1979 - Rededicated"],
             "ordinance-schedule": "",
             "session-schedule": "",
-            "temple-closure-schedule": "",
+            "templeClosureSchedule": "",
             "imageurl": "https://wildflowerlemon.github.io/wdd230/templeinn&suites/images/small-logan-temple-lds.jpg"
         },
         {
@@ -52,7 +52,7 @@
                         "12 December 2021 - Rededicated"],
             "ordinance-schedule": "",
             "session-schedule": "",
-            "temple-closure-schedule": ["Monday, 18 July 2022 - Monday, 1 August 2022",
+            "templeClosureSchedule": ["Monday, 18 July 2022 - Monday, 1 August 2022",
                                         "Saturday, 1 October 2022",
                                         "Wednesday, 23 November 2022 (Limited Operations)",
                                         "Thursday, 24 November 2022",
@@ -77,7 +77,7 @@
             "history":"",
             "ordinance-schedule": "",
             "session-schedule": "",
-            "temple-closure-schedule": "",
+            "templeClosureSchedule": "",
             "imageurl": ""
         }
     ]

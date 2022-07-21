@@ -45,12 +45,12 @@ function displayTemples(temple) {
     let ordinanceschedule = document.createElement("p");
     let sessionschedule = document.createElement("p");
 
-    let closureScheduleList = document.createElement("ul");
-    const templeclosureschedule = temple.closureScheduleList;
-    for (const schedule of templeclosureschedule) {
+    let closureList = document.createElement("ul");
+    const closureSchedule = temple.templeClosureSchedule;
+    for (const schedule of closureSchedule) {
         const listTime = document.createElement("li");
         listTime.textContent = schedule;
-        closureScheduleList.appendChild(listTime);
+        closureList.appendChild(listTime);
     }
 
     name.textContent = `${temple.name}`;
@@ -78,7 +78,7 @@ function displayTemples(temple) {
     card.appendChild(historyList);
     card.appendChild(ordinanceschedule);
     card.appendChild(sessionschedule);
-    card.appendChild(closureScheduleList);
+    card.appendChild(closureList);
 
     document.querySelector("div.cards").appendChild(card);
 
