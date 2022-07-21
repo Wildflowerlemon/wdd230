@@ -9,7 +9,6 @@ fetch(requestURL)
         console.table(jsonObject);
         const temples = jsonObject["temples"];
         temples.forEach(displayTemples);
-        listenForLikes();
     });
 
 
