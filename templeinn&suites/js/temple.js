@@ -45,6 +45,8 @@ function displayTemples(temple) {
     let ordinanceschedule = document.createElement("p");
     let sessionschedule = document.createElement("p");
 
+    const closureListh3 = document.createElement("h3");
+    closureListh3.innerHTML = `Temple Closure:`; 
     let closureList = document.createElement("ul");
     const closureSchedule = temple.templeClosureSchedule;
     for (const schedule of closureSchedule) {
@@ -78,6 +80,7 @@ function displayTemples(temple) {
     card.appendChild(historyList);
     card.appendChild(ordinanceschedule);
     card.appendChild(sessionschedule);
+    card.appendChild(closureListh3);
     card.appendChild(closureList);
 
     document.querySelector("div.cards").appendChild(card);

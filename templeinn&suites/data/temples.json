@@ -15,7 +15,12 @@
                     "2 November 1997 - Dedicated"],
             "ordinance-schedule": "",
             "session-schedule": "",
-            "templeClosureSchedule": "Monday, 19 September 2022 - Monday, 3 October 2002",
+            "templeClosureSchedule": ["Monday, 19 September 2022 - Monday, 3 October 2002",
+                                    "Wednesday, 23 November 2022 - Thursday, 24 November 2022",
+                                    "Saturday, 24 December 2022",
+                                    "Saturday, 31 December 2022",
+                                    "Monday, 17 April 2023 - Monday, 1 May 2023",
+                                    "Monday, 18 September 2023 - Monday, 2 October 2023"],
             "imageurl": "https://wildflowerlemon.github.io/wdd230/templeinn&suites/images/small-vernal-temple-lds.jpg"
         },
         {
