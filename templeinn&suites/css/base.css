@@ -153,20 +153,40 @@ nav a:hover {
 }
 
 
+.templemain {
+    margin: auto;
+
+}
+
 .cards section {
-    background-color: #bec537;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    margin: auto;
+    max-height: 100%;
+    box-shadow:  0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 5px;
+    margin: 3rem;
+    padding: 3rem;
+}
+
+.cards li {
+    padding: .5rem;
 }
 
 .cards {
-    padding: 1rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
 }
+
 
 .cards h2 {
     background-color: #5c6b1a;
     color: white;
+    padding: .5rem;
+}
+
+.cards h3 {
+    margin: .5rem;
 }
 
 /*-------------Footer-------------*/

@@ -9,6 +9,7 @@ fetch(requestURL)
         console.table(jsonObject);
         const temples = jsonObject["temples"];
         temples.forEach(displayTemples);
+        listenForLikes();
     });
 
 
@@ -17,7 +18,16 @@ function displayTemples(temple) {
     let card = document.createElement("section");
     let name = document.createElement("h2");
     let picture = document.createElement("img");
+    let likebutton = document.createElement("button")
+
+    const addressh3 = document.createElement("h3")
+    addressh3.innerHTML = `Temple Address:`;
+
     let address = document.createElement("p");
+
+    const telephoneh3 = document.createElement("h3");
+    telephoneh3.innerHTML = `Telephone:`;
+
     let telephone = document.createElement("p");
     let email = document.createElement("p");
 
@@ -58,8 +68,8 @@ function displayTemples(temple) {
     name.textContent = `${temple.name}`;
     picture.innerHTML = `${temple.picture}`;
 
-    address.innerHTML = `Temple Address: ${temple.address}`;
-    telephone.innerHTML = `Telephone: ${temple.telephone}`;
+    address.innerHTML = `${temple.address}`;
+    telephone.innerHTML = `${temple.telephone}`;
     email.innerHTML = `Email: ${temple.email}`;
     ordinanceschedule.innerHTML = `${temple.ordinanceschedule}`;
     sessionschedule.innerHTML =`${temple.sessionschedule}`;
@@ -69,9 +79,14 @@ function displayTemples(temple) {
     picture.setAttribute("alt", `Picture of the ${temple.name}`);
     picture.setAttribute("loading", "lazy");
 
+    //button.setAttribute("src", temple.likebutton);
+
     card.appendChild(picture);
     card.appendChild(name);
+    card.appendChild(likebutton);
+    card.appendChild(addressh3);
     card.appendChild(address);
+    card.appendChild(telephoneh3);
     card.appendChild(telephone);
     card.appendChild(email);
     card.appendChild(servicesh3);
@@ -84,6 +99,5 @@ function displayTemples(temple) {
     card.appendChild(closureList);
 
     document.querySelector("div.cards").appendChild(card);
-
 
 }

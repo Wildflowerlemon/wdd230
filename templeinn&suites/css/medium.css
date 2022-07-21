@@ -37,4 +37,9 @@
     .follow {
         grid-column: 2;
     }
+
+    .cards {
+        margin: 2rem;
+    }
+
 }
