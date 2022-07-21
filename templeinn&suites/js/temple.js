@@ -29,6 +29,9 @@ function displayTemples(temple) {
     telephoneh3.innerHTML = `Telephone:`;
 
     let telephone = document.createElement("p");
+
+    const emailh3 = document.createElement("h3");
+    emailh3.innerHTML = `Email:`;
     let email = document.createElement("p");
 
     const servicesh3 = document.createElement("h3");
@@ -70,7 +73,7 @@ function displayTemples(temple) {
 
     address.innerHTML = `${temple.address}`;
     telephone.innerHTML = `${temple.telephone}`;
-    email.innerHTML = `Email: ${temple.email}`;
+    email.innerHTML = `${temple.email}`;
     ordinanceschedule.innerHTML = `${temple.ordinanceschedule}`;
     sessionschedule.innerHTML =`${temple.sessionschedule}`;
     
