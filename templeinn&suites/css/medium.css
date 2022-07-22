@@ -4,8 +4,12 @@
         background-image: url(../images/medium-original.jpg);
     }
 
-    .vernal img, .suite img {
+    .vernal img {
         float: left;
+        margin: 2rem;
+    }
+
+    .suite img {
         margin: 2rem;
     }
 

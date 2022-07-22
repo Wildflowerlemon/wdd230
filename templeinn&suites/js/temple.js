@@ -54,9 +54,6 @@ function displayTemples(temple) {
         historyList.appendChild(listItem);
     }
 
-    let ordinanceschedule = document.createElement("p");
-    let sessionschedule = document.createElement("p");
-
     const closureListh3 = document.createElement("h3");
     closureListh3.innerHTML = `Temple Closure:`; 
     let closureList = document.createElement("ul");
@@ -73,8 +70,6 @@ function displayTemples(temple) {
     address.innerHTML = `${temple.address}`;
     telephone.innerHTML = `${temple.telephone}`;
     email.innerHTML = `${temple.email}`;
-    ordinanceschedule.innerHTML = `${temple.ordinanceschedule}`;
-    sessionschedule.innerHTML =`${temple.sessionschedule}`;
     
 
     picture.setAttribute("src", temple.imageurl);
@@ -96,8 +91,6 @@ function displayTemples(temple) {
     card.appendChild(servicesList);
     card.appendChild(historyh3);
     card.appendChild(historyList);
-    card.appendChild(ordinanceschedule);
-    card.appendChild(sessionschedule);
     card.appendChild(closureListh3);
     card.appendChild(closureList);
 
