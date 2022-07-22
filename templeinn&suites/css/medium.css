@@ -9,7 +9,7 @@
         margin: 2rem;
     }
 
-    .suite img {
+    .suite img, .reception img {
         margin: 2rem;
     }
 
@@ -46,6 +46,8 @@
         display: block;
         margin: auto;
     }
+
+  
 
     .topfooter {
         display: grid;

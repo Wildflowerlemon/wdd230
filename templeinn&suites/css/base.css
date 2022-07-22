@@ -363,6 +363,10 @@ textarea {
     display: grid;
     justify-content: space-around;
 }
+
+.suite p, .reception p {
+ margin: 2rem .5rem ;
+}
 /*-------------Footer-------------*/
 
 
