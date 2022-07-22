@@ -36,8 +36,67 @@
         </nav>
         </div>
     </header>
-    <main>
-        This is Reservation!
+    <main class="formmain">
+        <picture>
+            <source srcset="images/small-hotelbed.jpg" media="(max-width: 960px)">
+            <img src="images/medium-hotelbed.jpg" alt="hotelbed">
+        </picture>
+        <form method="get" action="thankyou.html">
+            <fieldset>
+                <legend>Personal Details</legend>
+                <label>First Name<input type="text" name="fname" required></label>
+                <label>Last Name<input type="text" name="lname" required></label>
+                <label>Email<input type="email" name="email" placeholder="someone@gmail.com" required></label>
+                <label>Phone<input type="tel" name="phone" placeholder="123-456-7890" required></label>
+                <label for="country">Country</label>
+                <select name="country" id="country" required>
+                    <option value="">Select Country</option>
+                    <option value="US">US</option>
+                    <option value="UK">UK</option>
+                    <option value="AUS">AUS</option>
+                </select>
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>Booking Details</legend>
+                <label for="location">Choose a location</label>
+                <select name="location" id="location">
+                    <option value="">--Please choose a location--</option>
+                    <option value="vernal">Vernal</option>
+                    <option value="logan">Logan</option>
+                    <option value="mesaarizona">Mesa Arizona</option>
+                    <option value="laiehawaii">Laie Hawaii</option>required
+                </select>
+
+                <label for="start">Arrival Date</label>
+                <input type="date" name="trip-start" id="start">
+
+                <label for="standard">Number of Standard rooms</label>
+                <input type="number" name="standard" id="standard"
+                        min="0" max="5" placeholder="0">
+
+                <label for="deluxe">Number of Deluxe rooms</label>
+                <input type="number" name="deluxe" id="deluxe"
+                        min="0" max="5" placeholder="0">
+                
+                <label for="joint">Number of Joint rooms</label>
+                <input type="number" name="joint" id="joint"
+                        min="0" max="5" placeholder="0">
+
+                <label for="suite">Number of Suite rooms</label>
+                <input type="number" name="suite" id="suite"
+                        min="0" max="5" placeholder="0">
+                
+                <label for="textarea">Do you have any special requests?</label><textarea name="description" rows="5" cols="50"></textarea></label>
+
+
+            <input type="hidden" id="date" name="date" value="currentdate">
+            <input type="hidden" id="time" name="time" value="currentdate">
+
+            <input type="submit" value="Book Now" class="submitBtn">
+            </fieldset>
+
+        </form>
     </main>
 <!-------- Footer -------->
     <footer>

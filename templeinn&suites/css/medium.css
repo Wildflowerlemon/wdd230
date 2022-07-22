@@ -1,18 +1,46 @@
 @media only screen and (min-width: 32.5em) {
 
-    /*footer {
-        position: fixed;
-        left: 0;
-        bottom: 0;
-    }*/
-
     .hometopimg {
         background-image: url(../images/medium-original.jpg);
     }
 
-    .vernal img {
+    .vernal img, .suite img {
         float: left;
         margin: 2rem;
+    }
+
+    .weatherbox {
+        width: 400px;
+        margin: 2rem;
+    }
+
+    .multipleweather {
+        display: flex;
+        flex-direction: row;
+        margin: 1rem auto;
+    }
+
+    .weatherblock {
+        display: flex;
+        flex-direction: column ;
+        align-items: center;
+        
+    }
+    .weatherdate2, .weatherdate3 {
+        border-bottom: none;
+        border-width: 1px 0 0 1px;
+    }
+
+    .formmain img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 1rem;
+    }
+
+    form {
+        display: block;
+        margin: auto;
     }
 
     .topfooter {

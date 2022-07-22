@@ -59,7 +59,50 @@
             </p>
         </div>
         <div class="weather">
+            <!--<figure>
+                <img src="" alt="" id="weather-icon" />
+            </figure>-->
+            <div class="mainweather">
+            <span id="time"></span>
+            <span id="place"></span>
+            <div class="current-temp-deg"><span id="current-temp"></span></div>
+            <span id="place"></span>
+            <div class="weatherbox">
+                <div class="topweatherbox">
+                <label for="humidity">Humidity<span id="humidity"></span></label>
+                <label for="figcaption">Current Condition<figcaption></figcaption></label>
+                </div>
+                <div class="bottomweatherbox">
+                    <label for="wind-speed">Wind: Speed: <span id="wind-speed"></span></label>
+                    <label for="wind-chill">Wind Chill: <span id="wind-chill"></span></label>
+                </div>
+            </div>
+            </div>
+            <div class="multipleweather">
+                <div class="weatherblock weathertomorrow">
+                    <p id="date1"></p>
+                    <figure>
+                        <img src="" alt="" id="weatherIconDate1"/>
+                    </figure>
+                    <span id="tomorrowTemp"></span>
+                </div>
 
+                <div class="weatherblock weatherdate2">
+                    <p id="date2"></p>
+                    <figure>
+                        <img src="" alt="" id="weatherIconDate2"/>
+                    </figure>
+                    <div id="seconddayTemp"></div>
+                </div>
+
+                <div class="weatherblock weatherdate3">
+                <p id="date3"></p>
+                <figure>
+                    <img src="" alt="" id="weatherIconDate3"/>
+                </figure>
+                <div id="thirddayTemp"></div>
+                </div>
+            </div>
         </div>
     </main>
 <!-------- Footer -------->
@@ -83,6 +126,7 @@
                 <ul>
                     <li><a href="https://www.churchofjesuschrist.org/temples/list?lang=eng">churchofjesuschrist.org</a></li>
                     <li><a href="https://churchofjesuschristtemples.org/vernal-utah-temple/">churchofjesuschristtemples.com</a></li>
+                    <a id="weather-source" href="https://openweathermap.org/city/4348599">Source: OpenWeatherMap</a>
                 </ul>
             </div>
 
@@ -104,6 +148,8 @@
     </footer>
     <script src="js/hamburgermenu.js"></script>
     <script src="js/lastUpdated.js"></script>
+    <script src="js/weather.js"></script>
+    <script src="js/weather3day.js"></script>
     
 </body>
 </html>

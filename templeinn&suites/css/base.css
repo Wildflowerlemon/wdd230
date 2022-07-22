@@ -125,7 +125,7 @@ nav a:hover {
     margin: 2rem;
 }
 
-#reserveBtn {
+#reserveBtn, .submitBtn {
     padding: 1.5rem;
     background-color: #bec537;
     color: white;
@@ -135,7 +135,7 @@ nav a:hover {
     border-radius: 1rem;
 }
 
-#reserveBtn:hover {
+#reserveBtn:hover, .submitBtn:hover {
     background-color: #5c6b1a;
 }
 
@@ -148,11 +148,99 @@ nav a:hover {
     border-bottom: 1px solid black;
 }
 
+/*-----------Weather Page--------------*/
 .weather {
-    height: 250px;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+/*#weather-icon {
+    width: 5rem;
+}*/
+
+.mainweather {
+    padding: 1rem 0 1rem;
+}
+
+#time {
+    margin: 1rem;
+}
+
+#place {
+    display: block;
+    padding: 0 1rem 0;
+}
+
+.current-temp-deg {
+    font-size: 2rem;
+    padding: 0 1rem 1rem;
+}
+
+.weatherbox {
+    display: block;
+    background-color: #bec537;
+    border: 1px solid black;
+    border-radius: 10px;
+    /*height: 200px;*/
+    margin: 1rem 0 2rem;
+    color: white;
+    font-size: 1.3rem;
+}
+
+.topweatherbox {
+    grid-column: 1/ span 2;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    height: 100px;
+    border-bottom: 1px solid black;
+}
+
+#humidity {
+    display: block;
+    font-weight: 700;
+}
+
+figcaption {
+    text-transform: capitalize;
+    grid-column: 2;
+    font-weight: 700;
+}
+
+#wind-speed, #wind-chill {
+    font-weight: 700;
+}
+
+.bottomweatherbox {
+    display: grid;
+    justify-items: center;
+    align-content: center;
+    height: 100px;
+    margin: 1rem;
+}
+
+.multipleweather {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+}
+.weatherblock {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .5rem;
+    border: 1px solid black;
+    border-width: 1px 0 1px 0;
+}
+
+.weathertomorrow, .weatherdate2 {
+    border-bottom: none;
 }
 
 
+/*-----------Temple Page--------------*/
 .templemain {
     margin: auto;
 
@@ -189,6 +277,92 @@ nav a:hover {
     margin: .5rem;
 }
 
+/*----------Reservation Page-------------*/
+
+#standard, #deluxe, #joint, #suite  {
+    height: 1rem;
+    width: 300px;
+    padding: .5rem;
+}
+
+form {
+    width: 550px;
+}
+form fieldset {
+    border: none;
+}
+
+form legend {
+    margin: 0 1rem;
+    padding: .5rem 1rem;
+    background-color: #5c6b1a;
+    font-weight: 700;
+    color: white;
+    font-size: 22px;
+    display: block;
+    width: 97%;
+}
+
+form label {
+    display: block;
+    padding: 2rem 0 0;
+    font-size: .8rem;
+}
+
+form label input {
+    font-size: 1rem;
+    padding: .5rem;
+    border-top: hidden;
+    border-right: hidden;
+    border-left: hidden;
+    border-bottom: groove;
+    width: 200px;
+}
+
+form select, #start{
+    padding: .5rem;
+    width: 300px;
+}
+
+form label input:required:valid {
+    border-bottom: green solid 1px;
+}
+
+form label input:required {
+    border-bottom: red solid 1px;
+}
+
+
+
+input:focus {
+    outline: none;
+}
+
+.rooms input {
+    padding: 2rem;
+}
+
+textarea {
+    padding: .75rem;
+    margin: 0 0 .5rem;
+    outline: none;
+}
+
+.submitBtn {
+    width: 400px;
+}
+
+/*-------------Services-------------*/
+.servicesmain ul li {
+   padding: .5rem;
+}
+.services h3{
+    text-align: center;
+}
+.services {
+    display: grid;
+    justify-content: space-around;
+}
 /*-------------Footer-------------*/
 
 

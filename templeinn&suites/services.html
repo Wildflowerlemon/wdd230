@@ -34,7 +34,7 @@
         </nav>
         </div>
     </header>
-    <main>
+    <main class="servicesmain">
         <div class="services freeamenities">
             <h3>Free Amenities</h3>
             <ul>
@@ -50,20 +50,45 @@
         <div class="services specialized">
             <h3>Specialized Services</h3>
             <ul>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
+                <li>Free access to changing rooms and bathroom facilities for temple patrons who have traveled far and need to change to and from church clothes</li>
+                <li>A playroom and low-cost, short-term babysitting services for the children of patrons</li>
+                <li>Long-term stay accommodations in kitchenette suites for full-time temple missionaries</li>
+                <li>Temple history themed reception and sitting area</li>
+                <li>A wedding reception hall that can be easily customized with a simple catering menu and kitchen access for food preparation and serving</li>
+                <li>A family search center that supports family search and ordinance work</li>
             </ul>
         </div>
-        <div class="reception"></div>
-        <div class="full-time missionary"></div>
+        <hr>
+        <div class="reception">
+            <h3>Reception</h3>
+        </div>
+        <div class="suite">
+            <img src="images/suite1.jpg" alt="Suite one">
+            <ul>
+                <li>Sleeps 1-6 people</li>
+                <li>Airy beds with piles of pillows</li>
+                <li>Dedicated Workspaces</li>
+                <li>Separate areas to sleep, work, and relax</li>
+                <li>In-suite microwave and a mini-fridge</li>
+                <li>Spa-like bathrooms</li>
+            </ul>
+            <!--<p>The Suite. A large apartment-like layout with separate living area, one or two bedrooms with attached bathrooms and/or powder rooms and most times, a dining area as well. Most of these suites have living rooms and bedrooms separated by a solid partition like a door. These are the most common suites and are typically preferred by families with young kids or one or more couples traveling together.</p>-->
+        </div>
+                <form method="get" action="thankyou.html">
+                    <fieldset>
+                        <legend>Contact Us</legend>
+                        <label>Full Name<input type="text" name="fullname" required></label>
+                        <label>Email<input type="email" name="email" placeholder="someone@gmail.com" required></label>
+                        <label for="textarea">Message</label><textarea name="description" rows="5" cols="50"></textarea></label>
+
+                    <input type="hidden" id="date" name="date" value="currentdate">
+                    <input type="hidden" id="time" name="time" value="currentdate">
+        
+                    <input type="submit" value="Contact Us" class="submitBtn">
+
+                    </fieldset>
+                </form>
+        </div>
     </main>
 <!-------- Footer -------->
     <footer>
